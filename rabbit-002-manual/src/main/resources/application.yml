@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: rabbitmq-001
+  rabbitmq:
+    host: 192.168.127.131 # 默认主机
+    port: 5672 # 默认端口
+    username: admin # 用户名
+    password: 123456 # 密码
+    virtual-host: test # 虚拟主机
+    listener:
+      simple:
+        acknowledge-mode: manual # 手动确认
+server:
+  port: 8081

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbit-04-return" />
+        <module name="rabbit-001" />
+        <module name="rabbit-002-manual" />
+        <module name="rabbit-03-delay2-plugins" />
+        <module name="rabbit-01-receivemessage" />
+        <module name="rabbit-03-delay1" />
+        <module name="rabbit-04-confirm1" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rabbit-001" options="-parameters" />
+      <module name="rabbit-002-manual" options="-parameters" />
+      <module name="rabbit-01-receivemessage" options="-parameters" />
+      <module name="rabbit-03-delay1" options="-parameters" />
+      <module name="rabbit-03-delay2-plugins" options="-parameters" />
+      <module name="rabbit-04-confirm1" options="-parameters" />
+      <module name="rabbit-04-return" options="-parameters" />
+    </option>
+  </component>
+</project>

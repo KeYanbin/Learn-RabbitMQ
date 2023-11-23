@@ -1,0 +1,22 @@
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JsBuildToolPackageJson" sorting="DEFINITION_ORDER" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/rabbitmq-001/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-01-receivemessage/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-001-fanout/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-002-manual/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-03-delay1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-03-delay2-plugins/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-08-confirm1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-04-confirm1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-04-return/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="JavaSE-18" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
