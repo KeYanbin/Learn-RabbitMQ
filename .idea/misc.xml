@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="JsBuildToolPackageJson" sorting="DEFINITION_ORDER" />
@@ -13,7 +14,17 @@
         <option value="$PROJECT_DIR$/rabbit-08-confirm1/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-04-confirm1/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-04-return/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-4-alternate-exchange/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-002-manual/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-001/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-5-alternate-exchange/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-06-idempotent/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/rabbit-4-alternate-exchange/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="JavaSE-18" project-jdk-type="JavaSDK">

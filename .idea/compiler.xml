@@ -11,11 +11,16 @@
         <module name="rabbit-001" />
         <module name="rabbit-002-manual" />
         <module name="rabbit-03-delay2-plugins" />
+        <module name="rabbit-5-alternate-exchange" />
         <module name="rabbit-01-receivemessage" />
+        <module name="rabbit-06-idempotent" />
         <module name="rabbit-03-delay1" />
         <module name="rabbit-04-confirm1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbit-4-alternate-exchange" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -26,6 +31,9 @@
       <module name="rabbit-03-delay2-plugins" options="-parameters" />
       <module name="rabbit-04-confirm1" options="-parameters" />
       <module name="rabbit-04-return" options="-parameters" />
+      <module name="rabbit-06-idempotent" options="-parameters" />
+      <module name="rabbit-4-alternate-exchange" options="-parameters" />
+      <module name="rabbit-5-alternate-exchange" options="-parameters" />
     </option>
   </component>
 </project>

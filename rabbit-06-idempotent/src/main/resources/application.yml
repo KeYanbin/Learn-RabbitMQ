@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: rabbitmq-001
+  rabbitmq:
+    listener:
+      simple:
+        # 手动acks-用户必须通过通道感知侦听器进行ack/nack。
+        acknowledge-mode: manual
+    host: 192.168.127.131 # 默认主机
+    port: 5672 # 默认端口
+    username: admin # 用户名
+    password: 123456 # 密码
+    virtual-host: test # 虚拟主机
+    publisher-returns: true # 开启消息发送失败返回队列
+    publisher-confirm-type: correlated # 开启消息发送确认
+  data:
+    redis:
+      host: 192.168.127.128
+      password: 123456
+      port: 6380
+      database: 0
+my:
+  exchange: exchange.idempotent
+  queue: queue.idempotent
+  routing-key: routing.idempotent
+
